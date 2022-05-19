@@ -131,44 +131,44 @@ void loop() {
 
 
     //********************1. servo motor kontrolunun baslangici
-    if (gelenVeri == 'F') {     //gelenVeri gesikeninin icindeki deger F'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'F') {     //gelenVeri degiskeninin icindeki deger F'ye esit ise if blogunun icindeki komutlar islenmektedir 
       sg1Yukari();              //sg1Yukari fonksiyonu cagrilmakta bu sayede 1. servo motorun yukari yonlu hareketi gerceklesmektedir
     }
 
-    if (gelenVeri == 'B') {    //gelenVeri gesikeninin icindeki deger B'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'B') {    //gelenVeri degiskeninin icindeki deger B'ye esit ise if blogunun icindeki komutlar islenmektedir 
       sg1Asagi();              //sg1Asagi fonksiyonu cagrilmakta bu sayede 1. servo motorun asagi yonlu hareketi gerceklesmektedir 
     }   
     //****************1. servo motor kontrolunun bitisi
 
     
      //******************2. servo motor kontrolunun baslangici
-    if (gelenVeri == 'L') {     //gelenVeri gesikeninin icindeki deger L'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'L') {     //gelenVeri degiskeninin icindeki deger L'ye esit ise if blogunun icindeki komutlar islenmektedir 
       sg2Yukari();              //sg2Yukari fonksiyonu cagrilmakta bu sayede 2. servo motorun yukari yonlu hareketi gerceklesmektedir
     }
 
-    if (gelenVeri == 'R') {   //gelenVeri gesikeninin icindeki deger R'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'R') {   //gelenVeri degiskeninin icindeki deger R'ye esit ise if blogunun icindeki komutlar islenmektedir 
      sg2Asagi();              //sg2Asagi fonksiyonu cagrilmakta bu sayede 2. servo motorun asagi yonlu hareketi gerceklesmektedir 
     }   
     //****************2. servo motor kontrolunun bitisi
 
 
      //*******************3. servo motor kontrolunun baslangici
-    if (gelenVeri == 'G') {   //gelenVeri gesikeninin icindeki deger G'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'G') {   //gelenVeri degiskeninin icindeki deger G'ye esit ise if blogunun icindeki komutlar islenmektedir 
       sg3Yukari();            //sg3Yukari fonksiyonu cagrilmakta bu sayede 3. servo motorun yukari yonlu hareketi gerceklesmektedir
     }
 
-    if (gelenVeri == 'I') {   //gelenVeri gesikeninin icindeki deger I'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'I') {   //gelenVeri degiskeninin icindeki deger I'ye esit ise if blogunun icindeki komutlar islenmektedir 
       sg3Asagi();             //sg3sagi fonksiyonu cagrilmakta bu sayede 3. servo motorun asagi yonlu hareketi gerceklesmektedir 
     }   
     //****************3. servo motor kontrolunun bitisi
 
 
       //*****************4. servo motor kontrolunun baslangici
-    if (gelenVeri == 'H') {   //gelenVeri gesikeninin icindeki deger H'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'H') {   //gelenVeri degiskeninin icindeki deger H'ye esit ise if blogunun icindeki komutlar islenmektedir 
      sg4Yukari();              //sg4Yukari fonksiyonu cagrilmakta bu sayede 4. servo motorun yukari yonlu hareketi gerceklesmektedir
     }
 
-    if (gelenVeri == 'J') {   //gelenVeri gesikeninin icindeki deger J'ye esit ise if blogunun icindeki komutlar islenmektedir 
+    if (gelenVeri == 'J') {   //gelenVeri degiskeninin icindeki deger J'ye esit ise if blogunun icindeki komutlar islenmektedir 
       sg4Asagi();             ////sg4sagi fonksiyonu cagrilmakta bu sayede 4. servo motorun asagi yonlu hareketi gerceklesmektedir 
     }  
     //****************4. servo motor kontrolunun bitisi
